@@ -1,0 +1,24 @@
+library(edgeR)
+
+data = read.table("/Users/aldrinyim/Box Sync/Peter_data/analysis_may2018/best_replicates_noFN4_SPM3/de_analysis/../counts.matrix", header=T, row.names=1, com='')
+col_ordering = c(21,22,27,10,11,12)
+rnaseqMatrix = data[,col_ordering]
+rnaseqMatrix = round(rnaseqMatrix)
+rnaseqMatrix = rnaseqMatrix[rowSums(cpm(rnaseqMatrix) > 1) >= 2,]
+conditions = factor(c(rep("Fascia", 3), rep("LPM", 3)))
+
+exp_study = DGEList(counts=rnaseqMatrix, group=conditions)
+exp_study = calcNormFactors(exp_study)
+exp_study = estimateCommonDisp(exp_study)
+exp_study = estimateTagwiseDisp(exp_study)
+et = exactTest(exp_study, pair=c("Fascia", "LPM"))
+tTags = topTags(et,n=NULL)
+result_table = tTags$table
+result_table = data.frame(sampleA="Fascia", sampleB="LPM", result_table)
+result_table$logFC = -1 * result_table$logFC
+write.table(result_table, file='counts.matrix.Fascia_vs_LPM.edgeR.DE_results', sep='	', quote=F, row.names=T)
+write.table(rnaseqMatrix, file='counts.matrix.Fascia_vs_LPM.edgeR.count_matrix', sep='	', quote=F, row.names=T)
+source("/Users/aldrinyim/utilities/trinityrnaseq-2.5.0/Analysis/DifferentialExpression/R/rnaseq_plot_funcs.R")
+pdf("counts.matrix.Fascia_vs_LPM.edgeR.DE_results.MA_n_Volcano.pdf")
+plot_MA_and_Volcano(rownames(result_table), result_table$logCPM, result_table$logFC, result_table$FDR)
+dev.off()
