@@ -1,0 +1,36 @@
+GO term	Description	P-value	FDR q-value	Enrichment	"(N,"	color
+GO:0043589	skin morphogenesis	1.70E-04	1.75E-01	87.65	"(9203,1538,70,23)"	grey
+GO:0021637	trigeminal nerve structural organization	1.70E-04	1.62E-01	87.65	"(9203,52,70,4)"	green
+GO:0032489	regulation of Cdc42 protein signal transduction	3.39E-04	2.15E-01	65.74	"(9203,46,70,4)"	grey
+GO:0021785	branchiomotor neuron axon guidance	3.39E-04	2.06E-01	65.74	"(9203,43,70,4)"	grey
+GO:0006930	"substrate-dependent cell migration, cell extension"	5.62E-04	3.00E-01	52.59	"(9203,85,70,10)"	grey
+GO:0048820	hair follicle maturation	5.62E-04	2.89E-01	52.59	"(9203,24,70,3)"	grey
+GO:0003214	cardiac left ventricle morphogenesis	8.39E-04	3.39E-01	43.82	"(9203,28,70,4)"	grey
+GO:0021612	facial nerve structural organization	8.39E-04	3.29E-01	43.82	"(9203,1525,70,26)"	grey
+GO:0070208	protein heterotrimerization	8.83E-05	1.07E-01	32.87	"(9203,942,70,17)"	grey
+GO:0030513	positive regulation of BMP signaling pathway	3.17E-04	2.11E-01	21.91	"(9203,724,70,15)"	purple
+GO:0030199	collagen fibril organization	5.48E-05	8.12E-02	18.78	"(9203,483,70,11)"	blue
+GO:0060976	coronary vasculature development	7.61E-04	3.38E-01	16.43	"(9203,18,70,3)"	grey
+GO:0001568	blood vessel development	6.64E-10	8.87E-06	15.47	"(9203,611,70,15)"	red
+GO:0030510	regulation of BMP signaling pathway	3.03E-04	2.25E-01	12.23	"(9203,608,70,15)"	grey
+GO:0071230	cellular response to amino acid stimulus	3.94E-04	2.28E-01	11.43	"(9203,551,70,14)"	grey
+GO:0043200	response to amino acid	6.31E-04	3.12E-01	10.11	"(9203,423,70,11)"	grey
+GO:0090263	positive regulation of canonical Wnt signaling pathway	8.37E-04	3.49E-01	9.39	"(9203,571,70,15)"	grey
+GO:0048568	embryonic organ development	8.26E-04	3.56E-01	6.78	"(9203,12,70,3)"	grey
+GO:0051271	negative regulation of cellular component movement	1.04E-05	6.96E-02	6.36	"(9203,6,70,2)"	grey
+GO:0001525	angiogenesis	3.45E-05	7.68E-02	6.34	"(9203,6,70,2)"	grey
+GO:0040013	negative regulation of locomotion	1.40E-05	6.24E-02	6.13	"(9203,197,70,8)"	grey
+GO:0030336	negative regulation of cell migration	1.72E-04	1.53E-01	5.9	"(9203,143,70,6)"	grey
+GO:2000146	negative regulation of cell motility	2.34E-04	1.96E-01	5.61	"(9203,164,70,7)"	grey
+GO:0043062	extracellular structure organization	7.34E-04	3.38E-01	5.52	"(9203,156,70,7)"	grey
+GO:0032102	negative regulation of response to external stimulus	1.16E-04	1.29E-01	5.34	"(9203,5,70,2)"	grey
+GO:2000145	regulation of cell motility	1.93E-05	6.43E-02	3.45	"(9203,5,70,2)"	yellow
+GO:0048646	anatomical structure formation involved in morphogenesis	3.16E-04	2.22E-01	3.42	"(9203,193,70,9)"	grey
+GO:0030334	regulation of cell migration	5.53E-05	7.38E-02	3.34	"(9203,166,70,8)"	grey
+GO:0040012	regulation of locomotion	4.02E-05	7.66E-02	3.24	"(9203,186,70,9)"	grey
+GO:0051270	regulation of cellular component movement	4.25E-05	7.10E-02	3.23	"(9203,97,70,5)"	grey
+GO:0032101	regulation of response to external stimulus	9.63E-04	3.67E-01	2.99	"(9203,4,70,2)"	grey
+GO:0009653	anatomical structure morphogenesis	2.86E-04	2.24E-01	2.72	"(9203,4,70,2)"	grey
+GO:1902531	regulation of intracellular signal transduction	5.37E-04	2.99E-01	2.37	"(9203,3,70,2)"	grey
+GO:0032879	regulation of localization	2.62E-05	7.01E-02	2.24	"(9203,3,70,2)"	grey
+GO:0009966	regulation of signal transduction	6.86E-04	3.27E-01	1.97	"(9203,56,70,4)"	grey

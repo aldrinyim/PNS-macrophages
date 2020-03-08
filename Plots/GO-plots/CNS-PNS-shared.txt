@@ -1,0 +1,49 @@
+GO term	Description	P-value	FDR q-value	Enrichment	"(N,"	Color
+GO:0032430	positive regulation of phospholipase A2 activity	3.99E-04	1.57E-01	57.35	"(9205,3,107,2)"	yellow
+GO:1904141	positive regulation of microglial cell migration	7.91E-04	2.46E-01	43.01	"(9205,4,107,2)"	red
+GO:0048246	macrophage chemotaxis	1.22E-04	7.75E-02	28.68	"(9205,9,107,3)"	grey
+GO:0090128	regulation of synapse maturation	1.22E-04	7.40E-02	28.68	"(9205,9,107,3)"	green
+GO:1905517	macrophage migration	2.35E-04	1.01E-01	23.46	"(9205,11,107,3)"	grey
+GO:0008347	glial cell migration	4.66E-05	7.77E-02	19.12	"(9205,18,107,4)"	grey
+GO:0072677	eosinophil migration	6.28E-04	2.15E-01	17.21	"(9205,15,107,3)"	grey
+GO:0048245	eosinophil chemotaxis	6.28E-04	2.10E-01	17.21	"(9205,15,107,3)"	grey
+GO:0048247	lymphocyte chemotaxis	1.84E-05	4.09E-02	14.83	"(9205,29,107,5)"	grey
+GO:0051966	"regulation of synaptic transmission, glutamatergic"	4.83E-04	1.79E-01	10.75	"(9205,32,107,4)"	grey
+GO:0072676	lymphocyte migration	1.17E-04	7.79E-02	10.24	"(9205,42,107,5)"	grey
+GO:0051897	positive regulation of protein kinase B signaling	7.39E-04	2.35E-01	6.94	"(9205,62,107,5)"	purple
+GO:0030595	leukocyte chemotaxis	6.41E-05	5.71E-02	6.92	"(9205,87,107,7)"	grey
+GO:2001237	negative regulation of extrinsic apoptotic signaling pathway	8.55E-04	2.54E-01	6.72	"(9205,64,107,5)"	orange
+GO:0048167	regulation of synaptic plasticity	5.09E-05	6.79E-02	6.04	"(9205,114,107,8)"	grey
+GO:0002687	positive regulation of leukocyte migration	1.55E-04	8.64E-02	6.02	"(9205,100,107,7)"	grey
+GO:0050804	modulation of chemical synaptic transmission	3.01E-09	4.02E-05	5.92	"(9205,247,107,17)"	grey
+GO:0099177	regulation of trans-synaptic signaling	3.20E-09	2.14E-05	5.9	"(9205,248,107,17)"	grey
+GO:0050921	positive regulation of chemotaxis	6.05E-04	2.18E-01	5.74	"(9205,90,107,6)"	grey
+GO:0060326	cell chemotaxis	1.36E-04	7.89E-02	5.25	"(9205,131,107,8)"	grey
+GO:0050900	leukocyte migration	6.10E-04	2.14E-01	4.82	"(9205,125,107,7)"	grey
+GO:0006935	chemotaxis	5.00E-05	7.41E-02	4.7	"(9205,183,107,10)"	grey
+GO:0042330	taxis	5.74E-05	6.96E-02	4.63	"(9205,186,107,10)"	grey
+GO:0050920	regulation of chemotaxis	9.63E-04	2.68E-01	4.46	"(9205,135,107,7)"	grey
+GO:0032103	positive regulation of response to external stimulus	6.60E-04	2.15E-01	3.74	"(9205,207,107,9)"	grey
+GO:0048870	cell motility	2.24E-06	9.97E-03	3.41	"(9205,480,107,19)"	grey
+GO:0051272	positive regulation of cellular component movement	6.01E-05	6.17E-02	3.38	"(9205,356,107,14)"	grey
+GO:0040017	positive regulation of locomotion	7.64E-05	5.66E-02	3.31	"(9205,364,107,14)"	grey
+GO:0045860	positive regulation of protein kinase activity	9.11E-04	2.65E-01	3.28	"(9205,262,107,10)"	grey
+GO:0040011	locomotion	2.30E-06	7.67E-03	3.26	"(9205,528,107,20)"	grey
+GO:0016477	cell migration	1.43E-05	3.82E-02	3.26	"(9205,448,107,17)"	grey
+GO:0030335	positive regulation of cell migration	1.63E-04	8.68E-02	3.26	"(9205,343,107,13)"	grey
+GO:2000147	positive regulation of cell motility	1.93E-04	9.91E-02	3.2	"(9205,349,107,13)"	grey
+GO:0050769	positive regulation of neurogenesis	8.05E-04	2.44E-01	3.1	"(9205,305,107,11)"	blue
+GO:0030334	regulation of cell migration	5.78E-05	6.43E-02	2.81	"(9205,551,107,18)"	grey
+GO:2000145	regulation of cell motility	9.16E-05	6.44E-02	2.71	"(9205,571,107,18)"	grey
+GO:0040012	regulation of locomotion	6.39E-05	6.10E-02	2.69	"(9205,608,107,19)"	grey
+GO:0051270	regulation of cellular component movement	6.83E-05	5.70E-02	2.68	"(9205,611,107,19)"	grey
+GO:0001934	positive regulation of protein phosphorylation	2.03E-04	9.69E-02	2.64	"(9205,554,107,17)"	grey
+GO:0010562	positive regulation of phosphorus metabolic process	2.19E-04	1.01E-01	2.53	"(9205,612,107,18)"	grey
+GO:0045937	positive regulation of phosphate metabolic process	2.19E-04	9.77E-02	2.53	"(9205,612,107,18)"	grey
+GO:0042327	positive regulation of phosphorylation	3.63E-04	1.52E-01	2.51	"(9205,582,107,17)"	grey
+GO:0008284	positive regulation of cell proliferation	9.46E-04	2.69E-01	2.48	"(9205,520,107,15)"	grey
+GO:0006928	movement of cell or subcellular component	2.01E-04	9.92E-02	2.47	"(9205,663,107,19)"	grey
+GO:0071310	cellular response to organic substance	4.34E-04	1.66E-01	2.25	"(9205,763,107,20)"	grey
+GO:0023051	regulation of signaling	3.52E-05	6.72E-02	1.88	"(9205,1741,107,38)"	grey
+GO:0010646	regulation of cell communication	7.32E-05	5.75E-02	1.84	"(9205,1729,107,37)"	grey
+GO:0032879	regulation of localization	3.98E-04	1.61E-01	1.81	"(9205,1524,107,32)"	grey
