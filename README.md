@@ -3,9 +3,9 @@
 ## System requirement
 The code has been implemented and tested on both MacOS 10.15.3 and Ubuntu/Linux 4.15.0-46-generic kernel.
 
-For R code, the following library version were tested:
-R 3.4.3
-Seurat 2.2.0
+For R code, the following library version were tested:\
+R 3.4.3\
+Seurat 2.2.0\
 ggplot2 3.2.1
 cowplot 1.0.0
 Matrix 1.2-18
